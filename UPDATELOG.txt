@@ -5,7 +5,7 @@ added important variable for unit
 added writeSystem (writeSys.cpp)
 added cmake for better complier
 output as hjson
-#BETA v0.2 will add: (also v0.5 will public)
+#BETA v0.2 added: (also v0.2 will public)
 EFI (extend for important variable)
 EFI to writeSys
 #BETA v0.25 will add:
