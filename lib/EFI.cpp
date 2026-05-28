@@ -2,13 +2,13 @@
 #include "EFI.h"
 
 int accept() {
-	std::cout << "input code 1/0 (as true/false) to active EFI (extend for important variables)";
+	std::cout << "input code 1/0 (as true/false) to active EFI (extend for important variables)" << '\n';
 	std::cin >> EFIactive;
-	std::cout << EFIactive;
+	std::cout << "debug code output as: " << EFIactive << '\n';
 	if(EFIactive !=0) {
-		std::cout << "EXTEND FOR IMPORTANT VARIABLES ACTIVE AS CODE 1" << '\n';
+		std::cout << "extend for important variables activate" << '\n';
 	} else {
-		std::cout << "EXTEND FOR IMPORTANT VARIABLES DEACTIVE AS CODE 0" << '\n';
+		std::cout << "extend for important variables inactivate" << '\n';
 	}
 
 	return 0;
