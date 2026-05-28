@@ -4,6 +4,7 @@ main: \
  CMakeFiles/main.dir/lib/important.cpp.o \
  CMakeFiles/main.dir/lib/writeSys.cpp.o \
  CMakeFiles/main.dir/lib/EFI.cpp.o \
+ CMakeFiles/main.dir/lib/weaponSystem.cpp.o \
  /data/data/com.termux/files/usr/lib/libc++_shared.so \
  /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a \
  /data/data/com.termux/files/usr/lib/libunwind.a \
@@ -21,6 +22,8 @@ CMakeFiles/main.dir/lib/important.cpp.o:
 CMakeFiles/main.dir/lib/writeSys.cpp.o:
 
 CMakeFiles/main.dir/lib/EFI.cpp.o:
+
+CMakeFiles/main.dir/lib/weaponSystem.cpp.o:
 
 /data/data/com.termux/files/usr/lib/libc++_shared.so:
 

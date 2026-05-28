@@ -177,6 +177,30 @@ lib/important.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/important.cpp.s
 .PHONY : lib/important.cpp.s
 
+lib/weaponSystem.o: lib/weaponSystem.cpp.o
+.PHONY : lib/weaponSystem.o
+
+# target to build an object file
+lib/weaponSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/weaponSystem.cpp.o
+.PHONY : lib/weaponSystem.cpp.o
+
+lib/weaponSystem.i: lib/weaponSystem.cpp.i
+.PHONY : lib/weaponSystem.i
+
+# target to preprocess a source file
+lib/weaponSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/weaponSystem.cpp.i
+.PHONY : lib/weaponSystem.cpp.i
+
+lib/weaponSystem.s: lib/weaponSystem.cpp.s
+.PHONY : lib/weaponSystem.s
+
+# target to generate assembly for a file
+lib/weaponSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/weaponSystem.cpp.s
+.PHONY : lib/weaponSystem.cpp.s
+
 lib/writeSys.o: lib/writeSys.cpp.o
 .PHONY : lib/writeSys.o
 
@@ -240,6 +264,9 @@ help:
 	@echo "... lib/important.o"
 	@echo "... lib/important.i"
 	@echo "... lib/important.s"
+	@echo "... lib/weaponSystem.o"
+	@echo "... lib/weaponSystem.i"
+	@echo "... lib/weaponSystem.s"
 	@echo "... lib/writeSys.o"
 	@echo "... lib/writeSys.i"
 	@echo "... lib/writeSys.s"

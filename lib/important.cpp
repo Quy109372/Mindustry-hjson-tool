@@ -2,6 +2,7 @@
 #include <string>
 #include <cctype>
 #include "important.h"
+#include "weaponSystem.h"
 #include "EFI.h"
 int tmp;
 int GetMain() {
@@ -47,6 +48,31 @@ int GetMain() {
 		std::cin >> drownTimeMultiplier;
 		std::cout << "input research cost multiplier (EFI): " << '\n';
 		std::cin >> researchCostMultiplier;
+	}
+
+	if(request != 0) {
+		std::cout << "input name weapon: " << '\n';
+		std::cin >> weaponName;
+		//std::cout << "input bullet type: (1,2 and 3)" << '\n';
+		//std::cin >> bulletType[list]
+		std::cout << "input shoot cone: (do not 0, that will crash your game)" <<'\n';
+		std::cin >> shootCone;
+		std::cout << "input reload speed: " << '\n';
+		std::cin >> reload;
+		std::cout << "your shoot sound name: (you can // to place holder that)";
+		std::cin >> shootSound;
+		std::cout << "input your wish damage: " << '\n';
+		std::cin >> dmg;
+		std::cout << "input recoil: " << '\n';
+		std::cin >> recoil;
+		std::cout << "input recoil power: " << '\n';
+		std::cin >> recoilPow;
+		std::cout << "input recoil time: " << '\n';
+		std::cin >> recoilTime;
+		std::cout << "input the inaccurate: " << '\n';
+		std::cin >> inaccurate;
+		std::cout << "input rotation limit: " << '\n';
+		std::cin >> rotationLimit;
 	}
 	//exit if you input stupid shit into cin
 	return 0; //wawa

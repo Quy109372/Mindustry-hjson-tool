@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/lib/EFI.cpp.o.d"
   "CMakeFiles/main.dir/lib/important.cpp.o"
   "CMakeFiles/main.dir/lib/important.cpp.o.d"
+  "CMakeFiles/main.dir/lib/weaponSystem.cpp.o"
+  "CMakeFiles/main.dir/lib/weaponSystem.cpp.o.d"
   "CMakeFiles/main.dir/lib/writeSys.cpp.o"
   "CMakeFiles/main.dir/lib/writeSys.cpp.o.d"
   "CMakeFiles/main.dir/main.cpp.o"

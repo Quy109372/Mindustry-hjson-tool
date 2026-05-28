@@ -1,1 +1,1 @@
-/data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG -Xlinker --dependency-file=CMakeFiles/main.dir/link.d CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/lib/important.cpp.o CMakeFiles/main.dir/lib/writeSys.cpp.o CMakeFiles/main.dir/lib/EFI.cpp.o -o main
+/data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG -Xlinker --dependency-file=CMakeFiles/main.dir/link.d CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/lib/important.cpp.o CMakeFiles/main.dir/lib/writeSys.cpp.o CMakeFiles/main.dir/lib/EFI.cpp.o CMakeFiles/main.dir/lib/weaponSystem.cpp.o -o main

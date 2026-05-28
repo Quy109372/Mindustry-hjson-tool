@@ -4,6 +4,7 @@
 #include "writeSys.h"
 #include "EFI.h"
 #include "important.h"
+#include "weaponSystem.h"
 int write() {
 	std::string filename = DisplayName;
 	filename += ".hjson";
@@ -19,7 +20,7 @@ int write() {
 		outFile << "lowAltitude: " << lowAltitude << '\n';
 		outFile << "faceTarget: " << faceTarget << '\n';
 		std::cout << EFIactive << '\n';
-		if(EFIactive == 1) {
+		if(EFIactive != 0 || EFIactive != false) {
 			outFile << "boostMultiplier: " << boostMultiplier << '\n';
 			outFile << "rotateSpeed: " << rotateSpeed << '\n';
 			outFile << "accel: " << accel << '\n';
@@ -30,6 +31,26 @@ int write() {
 			outFile << "buildSpeed: " << buildSpeed << '\n';
 			outFile << "aimDst: " << aimDst << '\n';
 		}
+		if(request != 0 || request != false) {
+			outFile << "    " << "weapon: [" << '\n';
+			outFile << "  name: " << weaponName << '\n';
+			outFile << "  shootSound: " << shootSound << '\n';
+			//outFile << "  bulletType: " << bulletType << '\n';
+			outFile << "  reload: " << reload << '\n';
+			outFile << "  damage: " << dmg << '\n';
+			outFile << "  inacurrate: " << inaccurate << '\n';
+			outFile << "  weaponRotate: " << weaponRotate << '\n';
+			outFile << "  rotationLimit: " << rotationLimit << '\n';
+			outFile << "  recoil: " << recoil << '\n';
+			outFile << "  recoilTime: " << recoilTime << '\n';
+			outFile << "  recoilPow: " << recoilPow << '\n';
+
+
+
+			outFile << "    " << "]";
+		}
 	}
+
+
 	return 0;
 }
