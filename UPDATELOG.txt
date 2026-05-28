@@ -8,7 +8,8 @@ output as hjson
 #BETA v0.2 added: (also v0.2 will public)
 EFI (extend for important variable)
 EFI to writeSys
-#BETA v0.25 will add:
+#ALPHA v0.25
 weapon basic stuff
+#BETA v0.25 will add:
 weapon shape
 and extra thingy for me :skull:
