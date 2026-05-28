@@ -1,0 +1,3 @@
+/data/data/com.termux/files/home/jsonCp/CMakeFiles/main.dir
+/data/data/com.termux/files/home/jsonCp/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/jsonCp/CMakeFiles/rebuild_cache.dir

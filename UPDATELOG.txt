@@ -1,0 +1,14 @@
+#BETA v0.1 (didnt public cuz that shit)
+added main.cpp linker
+added important variable for unit
+#BETA v0.15 (didnt public cuz that didnt done the job yet)
+added writeSystem (writeSys.cpp)
+added cmake for better complier
+output as hjson
+#BETA v0.2 will add: (also v0.5 will public)
+EFI (extend for important variable)
+EFI to writeSys
+#BETA v0.25 will add:
+weapon basic stuff
+weapon shape
+and extra thingy for me :skull:
