@@ -1,1 +1,0 @@
-clang++ need.cpp -fsanitize=address && ./a.out
