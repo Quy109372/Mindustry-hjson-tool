@@ -35,15 +35,14 @@ int write() {
 			outFile << "    " << "weapon: [" << '\n';
 			outFile << "  name: " << weaponName << '\n';
 			outFile << "  shootSound: " << shootSound << '\n';
-			//outFile << "  bulletType: " << bulletType << '\n';
+			outFile << "  bulletType: " << weaponType[chsAr] << '\n';
 			outFile << "  reload: " << reload << '\n';
 			outFile << "  damage: " << dmg << '\n';
 			outFile << "  inacurrate: " << inaccurate << '\n';
 			outFile << "  weaponRotate: " << weaponRotate << '\n';
 			outFile << "  rotationLimit: " << rotationLimit << '\n';
 			outFile << "  recoil: " << recoil << '\n';
-			outFile << "  recoilTime: " << recoilTime << '\n';
-			outFile << "  recoilPow: " << recoilPow << '\n';
+			outFile << "  recoilTime: " << recoilTime << '\n';			outFile << "  recoilPow: " << recoilPow << '\n';
 
 
 

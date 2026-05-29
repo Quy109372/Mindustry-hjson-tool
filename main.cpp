@@ -9,9 +9,15 @@ int main() {
     debug();
     std::cout << '\n';
     requestWeapon();
+
+    if(request != 0) {
+	weaponSetup();
+    }
+
     accept();
     std::cin.clear();
     std::cin.ignore(10000, '\n');
+
 
     GetMain();
     write();

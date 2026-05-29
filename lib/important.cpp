@@ -53,8 +53,7 @@ int GetMain() {
 	if(request != 0) {
 		std::cout << "input name weapon: " << '\n';
 		std::cin >> weaponName;
-		//std::cout << "input bullet type: (1,2 and 3)" << '\n';
-		//std::cin >> bulletType[list]
+		//bulletType setted in weaponSetup();
 		std::cout << "input shoot cone: (do not 0, that will crash your game)" <<'\n';
 		std::cin >> shootCone;
 		std::cout << "input reload speed: " << '\n';
